@@ -1,0 +1,5 @@
+Test Suite,Description,Object,Action ,DataColumn,WaitAfter
+login,Enter the Username in the UserName field,zonoc.jas:id/string_usrname,input,userName,
+login,Enter the Password in the Password field,zonoc.jas:id/string_password,input,password,
+login,Click on Login button,zonoc.jas:id/login,click,,
+login,Verify text,zonoc.jas:id/snackbar_text,verifyText,errMsg,
